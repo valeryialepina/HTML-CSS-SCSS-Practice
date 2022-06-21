@@ -1,0 +1,90 @@
+
+div {
+    width: 1170px;
+    padding: 0 15px;
+    text-align: center;
+}
+.title {
+    padding: 15px;
+    width: 1170px;
+    height: 50px;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 42px;
+}
+hr {
+    background-color: #EC7979;
+    color: #EC7979;
+    height: 0.5px;
+}
+.line {
+    padding-left: 500px;
+    width: 170px;  
+}
+.block1,.block2,.block3 { 
+    width: 370px;
+    height: 150px;
+   
+}
+.block1 {
+    margin: 200px 0 0 0;
+}
+.block2 {
+    margin: -150px 0 0 400px;
+}
+.block3 {
+    margin: -150px 0 0 800px;
+}
+.block1__subtitle,.block2__subtitle,.block3__subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;;
+}
+.block1__title,.block2__title,.block3__title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;;
+}
+
+.subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    color: #86878B;
+}
+ img {
+    position: relative;
+}
+.ellipse1 {
+    left: 30px;
+    top: 10px;
+}
+.group {
+    left: -58px;
+    top: 0;
+}
+.ellipse2 {
+    left: 30px;
+    top: 10px;
+}
+.vector {
+    left: -53px;
+    top: -13px;
+}
+.ellipse3 {
+    left: 30px;
+    top: 10px;
+}
+.vector1 {
+    left: -38px;
+    top: 0;
+}

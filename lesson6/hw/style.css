@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Circular Std";
+    src: url(./fonts/Circular\ Std\ Book.woff);
+    font-style: normal;
+    font-weight: 100;
+} 
+div {
+    background-color: none;
+}
+.main {
+    background: linear-gradient(180deg, rgba(236, 240, 253, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);;
+}
+.main__page {
+    position: relative;
+    max-width: 1920px;
+    margin: auto;
+    min-height: 1209px;
+}
+.img {
+    position: absolute;
+}
+.img_top-left {
+    left: 15%;
+    top: 15%;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.14));
+}
+.img_middle-left {
+    left: 5%;
+    top: 35%;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.14));
+}
+.img_buttom-left {
+    left: 10%;
+    top: 65%;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.14));
+}
+.img_top-right {
+    right: 20%;
+    top: 15%;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.14));
+}
+.img_middle-right  {
+    right: 10%;
+    top: 38%;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.14));
+}
+.img_buttom-right  {
+    right: 20%;
+    top: 70%;
+    filter: drop-shadow(0px 14px 24px rgba(0, 0, 0, 0.14));
+} 
+.title {
+    padding-top: 138px;
+    height: 140px;
+    width: 520px;
+    padding-left: 700px;
+    font-family: "Circular Std";
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+    color: #272D4E;
+}
+.block {
+    position: relative;
+    width: 730px;
+    height: 440px;
+    margin: auto;
+}
+.block__card {
+    position: absolute;
+    width: 730px;
+    height: 391px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    z-index: 1;
+}
+.block__card.card_back {
+    position: absolute;
+    width: 678px;
+    height: 363px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    left: 26px;
+    top: 56px;
+    z-index: 0;
+}
+.block__card.card_back-shadow {
+    position: absolute;
+    width: 618px;
+    height: 331px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    left: 56px;
+    top: 108px;
+    z-index: -1;
+}
+.abstract {
+    width: 566.17px;
+    height: 198px;
+    margin: auto;
+    padding-top: 106px;
+    font-family: "Circular Std";
+    font-size: 26.7px;
+    line-height: 39px;
+    text-align: center;
+    color: #94A2B3;
+}
+.navigation-button {
+    position: relative;
+    left: 60%;
+    top: 42px;
+}
+.navigation-button__left {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.navigation-button__right {
+    position: absolute;
+    left: 61px;
+    top: auto;
+}
+.block__card::before {
+    content: "";
+    position: absolute;
+    right: 248px;
+    top: 28px;
+    width: 234px;
+    height: 168px;
+    z-index: -1;
+    background-image: url('./img/woo/”.svg');
+}
+.card_back::after {
+    content: "";
+    position: absolute;
+    left: 359px;
+    bottom:  179px;
+    width: 473px;
+    height: 214px;
+    background-image: url('./img/woo/Group\ 6.svg');
+}
+.card_back-shadow::after {
+    content: "";
+    position: absolute;
+    right: 323px;
+    top: 199px;
+    width: 473px;
+    height: 214px;
+    background-image: url('./img/woo/Group\ 5.svg');
+}
+

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(../hw/fonts/open-sans-v27-latin/open-sans-v27-latin-regular.woff);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../hw/fonts/raleway-v22-latin/raleway-v22-latin-regular.woff);
+    font-style: normal;
+    font-weight: 100;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+.main__block {
+    width: 1171px;
+}
+.title::after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    color: #EC7979;
+   margin: 0 auto;
+}
+.title__text {
+    text-align: center;
+    color: #000000;
+    font-family: "Raleway";
+    font-size: 36px;
+    line-height: 42px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtitle {
+    text-align: center;
+    color: #86878B;
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 21px;
+    height: 21px;
+    margin-bottom: 59px;
+    margin-top: 40px;
+}
+.customer {
+    width: 370px;
+    height: 336px;
+ 
+}
+.customers {
+    display: flex;
+    justify-content: space-between;
+  }
+.customer__text {
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    padding-top: 38px;
+    padding-bottom: 37px;
+    box-sizing: border-box;
+    margin-bottom: 15%;
+    position: relative;
+}
+.abstract {
+    height: 105px;
+    width: 370px;
+    margin: 0;
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+.customer__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.text-info__name {
+    margin-top: 20px;
+    height: 54px;
+    width: 269px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.text-info {
+    display: flex;
+    flex-direction: column;
+}
+.text-info__position {
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    }
+.customer__text::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    top: 100%;
+    width: 30px;
+    height: 20px;
+    background-image: url('./img/woo/Polygon\ 1.svg');
+}
