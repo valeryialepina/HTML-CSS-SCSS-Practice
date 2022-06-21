@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../hw/fonts/montserrat-v23-latin_cyrillic/montserrat-v23-latin_cyrillic-regular.woff);
+    font-style: normal;
+   
+}
+.body {
+    display: flex;
+    justify-content: center;
+}
+.body__form {
+    display: flex;
+    justify-content: center;
+    max-width: 1605px;
+}
+.background{
+    position: relative;
+    z-index: -1;
+    left: 7%;
+    top: 0;
+    height: 370px;
+    width: 377.65px;
+}
+.background__back-img {
+    position: absolute;
+    z-index: -1;
+    left: 116px;
+    top: 102px;
+}
+.background__front-img {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 167px;
+    background: #FBF7F6;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    margin-right: 303px;
+}
+.form__img {
+    height: 351px;
+    width: 404px;
+    border-radius: 0 15px 15px 0;
+}
+.form__block {
+    height: 351px;
+    width: 404px;
+    border-radius:  15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-button {
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+    width: 324px;
+    height: 55px;
+    border: none;
+    margin-bottom: 40px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+}
+.personal-name,.personal-phone,.form-mail,.form-comment{
+    background-color: #FBF7F6;
+    border: none;
+    border-bottom: #371030 1px solid;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    padding-bottom: 10px;
+}
+.form-title,.personal,.form-mail,.form-comment {
+    width: 342px;
+}
+.form-title {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    margin-top: 30px;
+}
+.personal {
+    display: flex;
+    justify-content: space-between;
+}
+.personal-name,.personal-phone {
+    width: 144px;
+}
